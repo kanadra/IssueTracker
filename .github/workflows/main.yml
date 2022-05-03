@@ -41,7 +41,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/IssueTracker:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/issuetracker:latest
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
